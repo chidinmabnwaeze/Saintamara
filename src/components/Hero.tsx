@@ -20,7 +20,7 @@ export function Hero() {
             Everyday support that helps people live well,
             {/* <br/> */}
              
-            <span className="text-gold"> at home.</span>
+            <span className="text-gold"> at home</span>
           </h1>
 
           <p className="mt-7 max-w-xl text-lg text-navy/70">
