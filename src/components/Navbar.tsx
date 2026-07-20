@@ -6,7 +6,6 @@ const links = [
   { to: '/about', label: 'About' },
   { to: '/services', label: 'Services' },
   { to: '/approach', label: 'Our approach' },
-  { to: '/contact', label: 'Contact' },
 ]
 
 export function Navbar() {
