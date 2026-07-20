@@ -4,8 +4,8 @@ import { PageHeader } from '../components/PageHeader'
 const details = [
   {
     label: 'Call us',
-    value: '0000 000 0000',
-    href: 'tel:00000000000',
+    value: '+447448656686',
+    href: 'tel:+447448656686',
     note: 'Monday to Saturday, 9am – 6pm',
   },
   {
@@ -121,7 +121,7 @@ export function ContactPage() {
                         value={phone}
                         onChange={(e) => setPhone(e.target.value)}
                         className={field}
-                        placeholder="07000 000000"
+                        placeholder="+44 0000 000 000"
                       />
                     </div>
                   </div>

@@ -48,8 +48,8 @@ export function Footer() {
             <span className="text-xs font-700 uppercase tracking-label text-gold">
               Get in touch
             </span>
-            <a href="tel:00000000000" className="hover:text-navy">
-              0000 000 0000
+            <a href="tel:+447448656686" className="hover:text-navy">
+              +447448656686
             </a>
             <a href="mailto:hello@saintamara.co.uk" className="hover:text-navy">
               hello@saintamara.co.uk
@@ -59,7 +59,7 @@ export function Footer() {
 
         <div className="mt-12 flex flex-col gap-2 border-t border-stone pt-6 text-xs text-muted sm:flex-row sm:items-center sm:justify-between">
           <p>© {year} Saintamara Services Ltd. All rights reserved.</p>
-          <p>Non-regulated support · Registered in England &amp; Scotland · Company no. [00000000]</p>
+          <p>Non-regulated support · Registered in England &amp; Scotland · Company no. [+447448656686]</p>
         </div>
       </div>
     </footer>
