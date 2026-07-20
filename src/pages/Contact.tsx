@@ -10,8 +10,8 @@ const details = [
   },
   {
     label: 'Email us',
-    value: 'hello@saintamara.co.uk',
-    href: 'mailto:hello@saintamara.co.uk',
+    value: 'info@saintamara.co.uk',
+    href: 'mailto:info@saintamara.co.uk',
     note: 'We reply within one working day',
   },
 ]
@@ -31,7 +31,7 @@ export function ContactPage() {
     const body = encodeURIComponent(
       `Name: ${name}\nEmail: ${email}\nPhone: ${phone}\n\n${message}`,
     )
-    window.location.href = `mailto:hello@saintamara.co.uk?subject=${subject}&body=${body}`
+    window.location.href = `mailto:info@saintamara.co.uk?subject=${subject}&body=${body}`
   }
 
   return (
