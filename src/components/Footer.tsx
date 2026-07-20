@@ -59,7 +59,7 @@ export function Footer() {
 
         <div className="mt-12 flex flex-col gap-2 border-t border-stone pt-6 text-xs text-muted sm:flex-row sm:items-center sm:justify-between">
           <p>© {year} Saintamara Services Ltd. All rights reserved.</p>
-          <p>Non-regulated support · Registered in England &amp; Scotland · Company no. [+447448656686]</p>
+          <p>Non-regulated support · Registered in England &amp; Scotland </p>
         </div>
       </div>
     </footer>
