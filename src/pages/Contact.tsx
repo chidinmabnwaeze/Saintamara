@@ -66,7 +66,7 @@ export function ContactPage() {
                   Areas we cover
                 </span>
                 <p className="mt-2 text-navy/85">
-                  We are in Scotland and the surrounding areas across the UK.
+                  We are in Perth, Scotland and its surrounding areas in the UK.
                 </p>
               </div>
             </div>

@@ -24,9 +24,7 @@ export function Hero() {
           </h1>
 
           <p className="mt-7 max-w-xl text-lg text-navy/70">
-            Saintamara Services provides non-regulated support across the UK. We offer
-            companionship, a hand around the home, and a steady, familiar presence
-            for the people you care about.
+            Saintamara Services provides non-regulated support across the UK. We  are the friendly face for companionship, a hand at home, and offer support with outdoor activities. A steady, familiar presence for the people you care about.
           </p>
 
           <div className="mt-9 flex flex-wrap items-center gap-4">

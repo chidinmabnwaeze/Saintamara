@@ -51,15 +51,15 @@ export function Footer() {
             <a href="tel:+447448656686" className="hover:text-navy">
               +447448656686
             </a>
-            <a href="mailto:hello@saintamara.co.uk" className="hover:text-navy">
-              hello@saintamara.co.uk
+            <a href="mailto:info@saintamara.co.uk" className="hover:text-navy">
+              info@saintamara.co.uk
             </a>
           </div>
         </div>
 
         <div className="mt-12 flex flex-col gap-2 border-t border-stone pt-6 text-xs text-muted sm:flex-row sm:items-center sm:justify-between">
           <p>© {year} Saintamara Services Ltd. All rights reserved.</p>
-          <p>Non-regulated support · Registered in England &amp; Scotland </p>
+          <p>Non-regulated support · Registered in Perth, Scotland </p>
         </div>
       </div>
     </footer>
