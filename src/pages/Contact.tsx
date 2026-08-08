@@ -38,7 +38,7 @@ export function ContactPage() {
     <>
       <PageHeader
         eyebrow="Let’s talk"
-        title="Tell us who you’re caring for."
+        title="Contact Us"
         intro="A short, no-pressure conversation is the best place to start. Call or email us directly, or send a message below and we’ll get back to you."
         embedSrc="https://lottie.host/embed/4a28413e-3f9f-4c93-be3f-1ac8601b1972/5d3CiaA8FR.lottie"
       />
