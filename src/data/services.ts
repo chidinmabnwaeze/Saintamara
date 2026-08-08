@@ -23,7 +23,7 @@ export const services: Service[] = [
     points: [
       'Befriending, conversation and regular company visits',
       'Accompanying to appointments, shopping, church or the park',
-      'Shared hobbies — puzzles, reading, music',
+      'Shared hobbies; puzzles, reading, music',
       'Phone and video check-in calls',
     ],
   },
@@ -50,7 +50,7 @@ export const services: Service[] = [
       'Reminders and prompting through the day',
       'Help with appointments, forms and letters',
       'Budgeting support and bill reminders',
-      'Digital help — Zoom, WhatsApp and online shopping',
+      'Digital help ; Zoom, WhatsApp and online shopping',
     ],
   },
   {

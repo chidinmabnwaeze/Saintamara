@@ -57,9 +57,8 @@ export function Footer() {
           </div>
         </div>
 
-        <div className="mt-12 flex flex-col gap-2 border-t border-stone pt-6 text-xs text-muted sm:flex-row sm:items-center sm:justify-between">
+        <div className="mt-12 flex flex-col gap-2 border-t border-stone pt-6 text-xs text-muted sm:flex-row sm:items-center sm:justify-center">
           <p>© {year} Saintamara Services Ltd. All rights reserved.</p>
-          <p>Non-regulated support · Registered in Perth, Scotland </p>
         </div>
       </div>
     </footer>

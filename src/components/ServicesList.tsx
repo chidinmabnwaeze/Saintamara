@@ -4,13 +4,17 @@ import { ServiceIcon } from './Icons'
 export function ServicesList() {
   return (
     <div className="border-t border-navy/10">
-      {services.map((service) => (
+      {services.map((service , index) => (
         <div
           key={service.id}
           id={service.id}
           className="reveal grid scroll-mt-28 gap-6 border-b border-navy/10 py-10 md:grid-cols-[minmax(0,0.9fr)_minmax(0,1.1fr)] md:gap-12"
         >
-          <div className="flex gap-5">
+          <div className="flex gap-5 border border-collapse border-navy/30 rounded-lg p-5 md:items-start md:gap-6 hover:bg-gold/10 transition-colors hover:shadow-md translate-y-0 hover:-translate-y-1">
+            <div className="flex h-14 w-14 flex-none items-center justify-center">
+              <h3 className="font-display text-2xl font-600 text-navy">{index +1}</h3>
+             </div>
+
             <span className="flex h-14 w-14 flex-none items-center justify-center rounded-full bg-navy text-gold-soft">
               <ServiceIcon name={service.icon} />
             </span>

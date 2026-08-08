@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { PageHeader } from '../components/PageHeader'
+import Toast from '../components/Toast'
 
 const details = [
   {
@@ -24,6 +25,15 @@ export function ContactPage() {
   const [email, setEmail] = useState('')
   const [phone, setPhone] = useState('')
   const [message, setMessage] = useState('')
+  const [toastVisible, setToastVisible] = useState(false)
+  const [toastMessage, setToastMessage] = useState('')
+  const [toastType, setToastType] = useState<'info' | 'success' | 'error'>('info')
+
+  function showToast(message: string, type: 'info' | 'success' | 'error' = 'info') {
+    setToastMessage(message)
+    setToastType(type)
+    setToastVisible(true)
+  }
 
   function handleSubmit(e: React.FormEvent) {
     e.preventDefault()
@@ -31,7 +41,14 @@ export function ContactPage() {
     const body = encodeURIComponent(
       `Name: ${name}\nEmail: ${email}\nPhone: ${phone}\n\n${message}`,
     )
-    window.location.href = `mailto:info@saintamara.co.uk?subject=${subject}&body=${body}`
+    try {
+      showToast('Opening your email app...', 'info')
+      window.location.href = `mailto:info@saintamara.co.uk?subject=${subject}&body=${body}`
+      // If the browser stays on the page, show a friendly confirmation.
+      setTimeout(() => showToast('Email composer opened — thanks!', 'success'), 800)
+    } catch (err) {
+      showToast('Failed to open email client.', 'error')
+    }
   }
 
   return (
@@ -149,6 +166,12 @@ export function ContactPage() {
                   </button>
                 </div>
               </form>
+              <Toast
+                visible={toastVisible}
+                message={toastMessage}
+                type={toastType}
+                onClose={() => setToastVisible(false)}
+              />
             </div>
           </div>
         </div>
